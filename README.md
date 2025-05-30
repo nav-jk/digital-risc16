@@ -23,7 +23,7 @@ See [Instruction Set Documentation](./docs/instructions.md).
 
 A **register file** is a fast-access storage unit containing registers for temporary data during instruction execution. It works closely with the **Arithmetic Logic Unit (ALU)**.
 
-![Register File Diagram](regfile.png)
+![Register File Diagram](./docs_new/regfile.png)
 
 ### Functionality
 
