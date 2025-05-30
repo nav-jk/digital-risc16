@@ -15,10 +15,6 @@ A [minimal instruction set computer](https://en.wikipedia.org/wiki/Minimal_instr
 - Two pipeline stages: fetch and execute.
 - Designed for ice40 FPGAs using an open-source toolchain.
 
-### Architecture
-
-![Architecture Diagram](./docs/architecture.png)
-
 ### Instruction Set
 
 See [Instruction Set Documentation](./docs/instructions.md).
@@ -94,15 +90,6 @@ The **assembler** constructs 32-bit instruction words from individual components
 - Uses a **priority encoder** to select the active instruction
 - Outputs instructions to **EEPROM**
 - Programming mode (`mode`) enables the write clock signal
-
-## Graphics Hardware
-
-A retro **Video Display Processor (VDP)** circuit is included, compatible with DVI over HDMI using a PMOD. Inspired by late 1980s graphics systems like the Commodore 64, Amiga, and early Nintendo/Sega consoles.
-
-## Status
-
-- Complete arithmetic and logic instruction set
-- Capable of executing most programs
 
 ## Building and Running
 
