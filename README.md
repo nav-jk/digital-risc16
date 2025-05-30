@@ -36,7 +36,7 @@ A **register file** is a fast-access storage unit containing registers for tempo
 
 The **execution unit** includes a **full adder circuit** and an `add` signal.
 
-![Execution Unit Diagram](executionunit.png)
+![Execution Unit Diagram](./docs_new/executionunit.png)
 
 ### Operation
 
@@ -46,7 +46,7 @@ The **execution unit** includes a **full adder circuit** and an `add` signal.
 
 ## Decoder Unit
 
-![Decoder Unit Diagram](decoder.png)
+![Decoder Unit Diagram](./docs_new/decoder.png)
 
 The **decoder unit** interprets the 16-bit instruction and routes signals accordingly.
 
@@ -66,7 +66,7 @@ The **decoder unit** interprets the 16-bit instruction and routes signals accord
 
 The **fetch block** retrieves instructions and manages control flow.
 
-![Fetch Block Diagram](fetch.png)
+![Fetch Block Diagram](./docs_new/fetch.png)
 
 ### Inputs
 
@@ -82,7 +82,7 @@ The counter only loads the address when a **jump** instruction is active.
 
 The **assembler** constructs 32-bit instruction words from individual components.
 
-![Assembler Diagram](assembler.png)
+![Assembler Diagram](./docs_new/assembler.png)
 
 ### Functionality
 
